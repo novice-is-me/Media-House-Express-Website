@@ -1,0 +1,49 @@
+body{
+    scroll-behavior: smooth;
+    /* font-family: 'Lato', sans-serif;   */
+}
+
+body::before{
+    display: block;
+    content: " ";
+    height: 78px;      
+}
+ 
+navbar{
+    box-shadow: 1px 2px 19px 0px rgba(0,0,0,0.25); 
+    background-color: white;  
+}
+
+.main{
+    background-color: #F8F0E5;  
+}
+
+#brand-name{
+    font-family: 'Young Serif', serif;  
+}
+
+.font-header{
+    font-family: 'Young Serif', serif;  
+    font-weight: 700; 
+    font-size: 2.5rem;     
+}
+
+.font-sub{
+    font-size: 1.5rem;   
+}
+
+.btn-main{
+    border: 1px solid #aeaaa0;  
+} 
+
+.btn-main:hover{
+    background-color: #aeaaa0;
+    color: white; 
+}
+
+
+@media (max-width: 465px){   
+    #brand-name{
+        display: none; 
+    }
+}
