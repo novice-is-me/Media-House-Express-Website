@@ -1,12 +1,11 @@
 body{
     scroll-behavior: smooth;
-    /* font-family: 'Lato', sans-serif;   */
 }
 
 body::before{
     display: block;
-    content: " ";
-    height: 78px;      
+    content: " "; 
+    height: 90px;      
 }
  
 navbar{
@@ -14,12 +13,16 @@ navbar{
     background-color: white;  
 }
 
+p{
+    font-family: 'Montserrat', sans-serif; 
+}
+
 .main{
-    background-color: #F8F0E5;  
+    background-color: #F8F0E5;   
 }
 
 #brand-name{
-    font-family: 'Young Serif', serif;  
+    font-family: 'Gabarito', cursive;  
 }
 
 .font-header{
@@ -41,6 +44,11 @@ navbar{
     color: white; 
 }
 
+@media (min-width:990px) and (max-width:1400px){
+    .main{ 
+        padding-top: 5em !important;     
+    } 
+}
 
 @media (max-width: 465px){   
     #brand-name{
