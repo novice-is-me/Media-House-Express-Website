@@ -48,7 +48,8 @@ h2{
 }
 
 #about,
-#benefits-bg{ 
+#benefits-bg,
+#services{  
     background-color: #FFFEFA;   
 }
 
@@ -63,8 +64,14 @@ h2{
 #benefits img{ 
     width: 100px;     
     object-fit: contain;     
-     
 }
+
+#services img{
+    width: 100%; 
+    object-fit: cover;   
+    height: 200px;    
+}
+
 
 
 /* Small Screen below */
