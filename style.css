@@ -17,7 +17,8 @@ p{
     font-family: 'Montserrat', sans-serif; 
 }
 
-#main{ 
+#main,
+#benefits{   
     background-color: #F8F0E5;   
 }
 
@@ -42,9 +43,29 @@ h2{
 }
 
 #about img{
-    width: 70% !important; 
+    width: 60% !important;   
     padding-bottom: 2em; 
 }
+
+#about,
+#benefits-bg{ 
+    background-color: #FFFEFA;   
+}
+
+#benefits-bg{
+    box-shadow:  10px 10px 5px 0px rgba(204,204,204,1); 
+}
+ 
+.border-line{  
+    border-bottom: 1px solid black;  
+}
+
+#benefits img{ 
+    width: 100px;     
+    object-fit: contain;     
+     
+}
+
 
 /* Small Screen below */
 @media (max-width: 465px){   
@@ -82,3 +103,10 @@ h2{
         padding-top: 5em !important;     
     } 
 } 
+
+/* small screen below */
+@media (max-width:320px){  
+   #benefits img{
+    display: none; 
+   }
+}
