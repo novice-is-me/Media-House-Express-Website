@@ -18,7 +18,7 @@ p{
 }
 
 #main,
-#benefits{   
+#benefits{     
     background-color: #F8F0E5;   
 }
 
@@ -64,7 +64,7 @@ h2{
 #benefits img{ 
     width: 100px;     
     object-fit: contain;     
-}
+} 
 
 #services img{
     width: 100%; 
@@ -76,7 +76,15 @@ h2{
     box-shadow:  10px 10px 5px 0px rgb(222, 221, 221);   
 }
 
- 
+#team{
+    background-color:#F8F0E5; 
+}
+
+#team img{
+    width: 30%;   
+    object-fit: contain;    
+       
+}
 
 /* Small Screen below */
 @media (max-width: 465px){   
