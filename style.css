@@ -72,7 +72,11 @@ h2{
     height: 200px;    
 }
 
+#services .card{
+    box-shadow:  10px 10px 5px 0px rgb(222, 221, 221);   
+}
 
+ 
 
 /* Small Screen below */
 @media (max-width: 465px){   
